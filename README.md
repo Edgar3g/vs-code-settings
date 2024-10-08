@@ -1,7 +1,7 @@
 # vs-code-settings
 my vs-code settings
 
-
+<pre>
 ------------------------------------------
 {
   "workbench.colorTheme": "Bearded Theme feat. Will",
@@ -187,3 +187,4 @@ my vs-code settings
   "workbench.sideBar.location": "right",
   "trailing-spaces.backgroundColor": "rgba(255,0,0,0.1)"
 }
+</pre>
