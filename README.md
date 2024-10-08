@@ -188,3 +188,33 @@ my vs-code settings
   "trailing-spaces.backgroundColor": "rgba(255,0,0,0.1)"
 }
 </pre>
+
+## Simple
+
+<pre>
+  {
+    "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
+    "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.fontFamily": "'JetBrains Mono', 'Fira Code', 'MesloLGS NF', 'FiraCode Nerd Font Mono', monospace",
+    "editor.guides.bracketPairs":"active",
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "git.autofetch": true,
+    "[javascript]": {
+    "editor.maxTokenizationLineLength": 2500,
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    }
+    },
+    "eslint.alwaysShowStatus": true,
+    "task.saveBeforeRun": "always",
+    "editor.minimap.enabled": false,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.sideBar.location": "right",
+}
+</pre>
